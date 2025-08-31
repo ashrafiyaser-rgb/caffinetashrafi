@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>لینک‌های من</title>
+</head>
+<body style="background-color: white; font-family: Tahoma; text-align: center; margin-top: 50px;">
+  <h2>لینک‌های من</h2>
+  <p><a href="https://rubika.ir/ashrafi_c_net" target="_blank">@ashrafi_c_net در روبیکا</a></p>
+  <p><a href="https://bale.ai/ashrafi_c_net" target="_blank">@ashrafi_c_net در بله</a></p>
+  <p><a href="https://sapp.ir/ashrafi_c_net" target="_blank">@ashrafi_c_net در سروش</a></p>
+  <p><a href="https://shad.ir/prfcxe5593" target="_blank">@prfcxe5593 در شاد</a></p>
+  <p><a href="https://eitaa.com/ashrafi_c_net" target="_blank">@ashrafi_c_net در ایتا</a></p>
+  <p><a href="https://t.me/ashrafi_c_net" target="_blank">تلگرام: @ashrafi_c_net</a></p>
+</body>
+</html>
