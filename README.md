@@ -1,4 +1,3 @@
-
 <html lang="fa">
 <head>
   <meta charset="UTF-8">
@@ -25,19 +24,19 @@
     }
     .msg1 {
       font-weight: bold;
-      margin-bottom: 16px;
+      margin-bottom: 17px;
     }
     .msg2 {
-      font-size: 14px; /* کمی کوچکتر */
+      font-size: 15px; /* کمی کوچکتر */
       color: green;
       margin-bottom: 15px;
     }
     .msg3 {
-      font-size: 14px; /* کمی کوچکتر */
+      font-size: 15px; /* کمی کوچکتر */
       margin-bottom: 15px;
     }
     .msg4 {
-      font-size: 12px; /* کوچکتر */
+      font-size: 13px; /* کوچکتر */
       color: red;
       margin-bottom: 20px;
     }
