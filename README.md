@@ -59,6 +59,8 @@
 <body>
   <div class="card">
     <h2>لینک‌های ارتباطی</h2>
+    <h2>لطفا برای ثبت سفارش خود روی یکی از برنامه هایی که در دستگاهتون نصب هست کلیل کنید تا با تیم ما در ارتباط باشید</h2>
+    <h2>توجه کنید که برای انتخاب تلگرام ابتدا باید فیلتر شکن شما فعال باشد</h2>
     <div class="links-container">
       <a class="link-box" href="https://rubika.ir/ashrafi_c_net" target="_blank">روبیکا</a>
       <a class="link-box" href="https://ble.ir/ashrafi_c_net" target="_blank">بله</a>
