@@ -3,14 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>لینک‌های من</title>
+  <!-- فونت فارسی Vazirmatn از گوگل -->
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background: linear-gradient(135deg, #f0f4f8, #dfe9f3);
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: 20px 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    h2 {
+      color: #333;
+    }
+    .link-box {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      border-radius: 12px;
+      background: #3498db;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    .link-box:hover {
+      transform: scale(1.05);
+      background: #2ecc71;
+    }
+  </style>
 </head>
-<body style="background-color: white; font-family: Tahoma; text-align: center; margin-top: 50px;">
+<body>
+  <!-- عکس پروفایل/لوگو -->
+  <img src="https://via.placeholder.com/120" alt="لوگو یا عکس پروفایل">
+
   <h2>لینک‌های من</h2>
-  <p><a href="https://rubika.ir/ashrafi_c_net" target="_blank">@ashrafi_c_net در روبیکا</a></p>
-  <p><a href="https://bale.ai/ashrafi_c_net" target="_blank">@ashrafi_c_net در بله</a></p>
-  <p><a href="https://sapp.ir/ashrafi_c_net" target="_blank">@ashrafi_c_net در سروش</a></p>
-  <p><a href="https://shad.ir/prfcxe5593" target="_blank">@prfcxe5593 در شاد</a></p>
-  <p><a href="https://eitaa.com/ashrafi_c_net" target="_blank">@ashrafi_c_net در ایتا</a></p>
-  <p><a href="https://t.me/ashrafi_c_net" target="_blank">تلگرام: @ashrafi_c_net</a></p>
+
+  <div>
+    <a class="link-box" href="https://rubika.ir/ashrafi_c_net" target="_blank">روبیکا</a>
+    <a class="link-box" href="https://bale.ai/ashrafi_c_net" target="_blank">بله</a>
+    <a class="link-box" href="https://sapp.ir/ashrafi_c_net" target="_blank">سروش</a>
+    <a class="link-box" href="https://shad.ir/prfcxe5593" target="_blank">شاد</a>
+    <a class="link-box" href="https://eitaa.com/ashrafi_c_net" target="_blank">ایتا</a>
+    <a class="link-box" href="https://t.me/ashrafi_c_net" target="_blank">تلگرام</a>
+  </div>
 </body>
 </html>
