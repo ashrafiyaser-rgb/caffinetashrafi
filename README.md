@@ -2,15 +2,96 @@
 <html lang="fa">
 <head>
   <meta charset="UTF-8">
-  <title>لینک‌های من</title>
+  <title>کارت ویزیت من</title>
+  <!-- فونت فارسی Vazirmatn -->
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+  <!-- آیکون‌ها از Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 340px;
+      animation: fadeIn 1s ease-in-out;
+    }
+    .card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .card h2 {
+      margin: 10px 0 20px 0;
+      color: #333;
+    }
+    .link-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 30px;
+      background: #3498db;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    .link-box:hover {
+      transform: translateY(-3px);
+      background: #2ecc71;
+    }
+    .link-box i {
+      font-size: 18px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
 </head>
-<body style="background-color: white; font-family: Tahoma; text-align: center; margin-top: 50px;">
-  <h2>لینک‌های من</h2>
-  <p><a href="https://rubika.ir/ashrafi_c_net" target="_blank">@ashrafi_c_net در روبیکا</a></p>
-  <p><a href="https://bale.ai/ashrafi_c_net" target="_blank">@ashrafi_c_net در بله</a></p>
-  <p><a href="https://sapp.ir/ashrafi_c_net" target="_blank">@ashrafi_c_net در سروش</a></p>
-  <p><a href="https://shad.ir/prfcxe5593" target="_blank">@prfcxe5593 در شاد</a></p>
-  <p><a href="https://eitaa.com/ashrafi_c_net" target="_blank">@ashrafi_c_net در ایتا</a></p>
-  <p><a href="https://t.me/ashrafi_c_net" target="_blank">تلگرام: @ashrafi_c_net</a></p>
+<body>
+  <div class="card">
+    <!-- عکس پروفایل -->
+    <img src="https://via.placeholder.com/120" alt="عکس پروفایل">
+
+    <h2>یاسر اشرفی</h2>
+
+    <!-- لینک‌ها با آیکون -->
+    <a class="link-box" href="https://rubika.ir/ashrafi_c_net" target="_blank">
+      <i class="fa-solid fa-circle"></i> روبیکا
+    </a>
+    <a class="link-box" href="https://bale.ai/ashrafi_c_net" target="_blank">
+      <i class="fa-solid fa-comment-dots"></i> بله
+    </a>
+    <a class="link-box" href="https://sapp.ir/ashrafi_c_net" target="_blank">
+      <i class="fa-solid fa-paper-plane"></i> سروش
+    </a>
+    <a class="link-box" href="https://shad.ir/prfcxe5593" target="_blank">
+      <i class="fa-solid fa-graduation-cap"></i> شاد
+    </a>
+    <a class="link-box" href="https://eitaa.com/ashrafi_c_net" target="_blank">
+      <i class="fa-solid fa-star"></i> ایتا
+    </a>
+    <a class="link-box" href="https://t.me/ashrafi_c_net" target="_blank">
+      <i class="fab fa-telegram"></i> تلگرام
+    </a>
+  </div>
 </body>
 </html>
