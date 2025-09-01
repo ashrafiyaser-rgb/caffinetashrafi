@@ -23,9 +23,18 @@
       width: 360px;
       animation: fadeIn 1s ease-in-out;
     }
-    h2 {
-      margin-bottom: 25px;
-      color: #333;
+    .msg1 {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .msg2 {
+      font-size: 14px; /* کمی کوچکتر */
+      margin-bottom: 15px;
+    }
+    .msg3 {
+      font-size: 12px; /* کوچکتر */
+      color: red;
+      margin-bottom: 20px;
     }
     .links-container {
       display: flex;
@@ -58,9 +67,10 @@
 </head>
 <body>
   <div class="card">
-    <h2>لینک‌های ارتباطی</h2>
-    <h2>لطفا برای ثبت سفارش خود روی یکی از برنامه هایی که در دستگاهتون نصب هست کلیک کنید تا با تیم ما در ارتباط باشید</h2>
-    <h2>توجه کنید که برای انتخاب تلگرام ابتدا باید فیلتر شکن شما فعال باشد</h2>
+    <div class="msg1">لینک‌های ارتباطی</div>
+    <div class="msg2">لطفا برای ثبت سفارش خود روی یکی از برنامه هایی که در دستگاهتون نصب هست کلیک کنید تا با تیم ما در ارتباط باشید</div>
+    <div class="msg3">توجه کنید که برای انتخاب تلگرام ابتدا باید فیلتر شکن شما فعال باشد</div>
+
     <div class="links-container">
       <a class="link-box" href="https://rubika.ir/ashrafi_c_net" target="_blank">روبیکا</a>
       <a class="link-box" href="https://ble.ir/ashrafi_c_net" target="_blank">بله</a>
