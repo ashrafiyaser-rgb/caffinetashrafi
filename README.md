@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="fa">
 <head>
   <meta charset="UTF-8">
@@ -71,7 +71,7 @@
     <!-- عکس پروفایل -->
     <img src="https://via.placeholder.com/120" alt="عکس پروفایل">
 
-    <h2>یاسر اشرفی</h2>
+    <h2>لینک های ارتباطی</h2>
 
     <!-- لینک‌ها با آیکون -->
     <a class="link-box" href="https://rubika.ir/ashrafi_c_net" target="_blank">
