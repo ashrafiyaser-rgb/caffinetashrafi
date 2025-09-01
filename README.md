@@ -25,13 +25,18 @@
     }
     .msg1 {
       font-weight: bold;
-      margin-bottom: 15px;
+      margin-bottom: 16px;
     }
     .msg2 {
       font-size: 14px; /* کمی کوچکتر */
+      color: green;
       margin-bottom: 15px;
     }
     .msg3 {
+      font-size: 14px; /* کمی کوچکتر */
+      margin-bottom: 15px;
+    }
+    .msg4 {
       font-size: 12px; /* کوچکتر */
       color: red;
       margin-bottom: 20px;
@@ -68,8 +73,9 @@
 <body>
   <div class="card">
     <div class="msg1">لینک‌های ارتباطی</div>
-    <div class="msg2">لطفا برای ثبت سفارش خود روی یکی از برنامه هایی که در دستگاهتون نصب هست کلیک کنید تا با تیم ما در ارتباط باشید</div>
-    <div class="msg3">توجه کنید که برای انتخاب تلگرام ابتدا باید فیلتر شکن شما فعال باشد</div>
+    <div class="msg2">‌از حسن توجه شما بسیار سپاسگذاریم</div>
+    <div class="msg3">لطفا برای ثبت سفارش خود روی یکی از برنامه هایی که در دستگاهتون نصب هست کلیک کنید تا با تیم ما در ارتباط باشید</div>
+    <div class="msg4">توجه کنید که برای انتخاب تلگرام ابتدا باید فیلتر شکن شما فعال باشد</div>
 
     <div class="links-container">
       <a class="link-box" href="https://rubika.ir/ashrafi_c_net" target="_blank">روبیکا</a>
