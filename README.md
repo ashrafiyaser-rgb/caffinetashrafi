@@ -66,6 +66,7 @@
       <a class="link-box" href="https://shad.ir/prfcxe5593" target="_blank">شاد</a>
       <a class="link-box" href="https://eitaa.com/ashrafi_c_net" target="_blank">ایتا</a>
       <a class="link-box" href="https://t.me/ashrafi_c_net" target="_blank">تلگرام</a>
+      <a class="link-box" href="https://wa.me/989309166187" target="_blank">واتساپ</a>
     </div>
   </div>
 </body>
