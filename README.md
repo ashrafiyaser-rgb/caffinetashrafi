@@ -85,6 +85,11 @@
       <a class="link-box" href="https://eitaa.com/ashrafi_c_net" target="_blank">ایتا</a>
       <a class="link-box" href="https://t.me/ashrafi_c_net" target="_blank">تلگرام</a>
       <a class="link-box" href="https://wa.me/989309166187" target="_blank">واتساپ</a>
+
+      <!-- باکس تماس تلفنی -->
+      <a class="link-box" href="tel:+989309166187">
+        تماس تلفنی: 0903-09166187
+      </a>
     </div>
   </div>
 </body>
