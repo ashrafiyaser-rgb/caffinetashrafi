@@ -77,7 +77,7 @@
     <a class="link-box" href="https://rubika.ir/ashrafi_c_net" target="_blank">
       <i class="fa-solid fa-circle"></i> روبیکا
     </a>
-    <a class="link-box" href="https://bale.ai/ashrafi_c_net" target="_blank">
+    <a class="link-box" href="https://ble.ir/ashrafi_c_net" target="_blank">
       <i class="fa-solid fa-comment-dots"></i> بله
     </a>
     <a class="link-box" href="https://sapp.ir/ashrafi_c_net" target="_blank">
