@@ -42,13 +42,15 @@
     }
     .links-container {
       display: flex;
-      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
       gap: 10px;
     }
     .link-box {
+      flex: 1 1 calc(50% - 10px);
+      margin: 5px 0;
       padding: 12px;
       border-radius: 20px;
-      background: #3498db;
       color: white;
       text-decoration: none;
       font-size: 16px;
@@ -56,14 +58,39 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.15);
       text-align: center;
       display: block;
+      animation: slideIn 0.5s ease-in-out;
     }
     .link-box:hover {
       transform: translateY(-3px);
-      background: #2ecc71;
+      filter: brightness(1.2);
     }
+    /* رنگ‌های متنوع برای خدمات */
+    #services .link-box:nth-child(1) { background: #3498db; }
+    #services .link-box:nth-child(2) { background: #9b59b6; }
+    #services .link-box:nth-child(3) { background: #e67e22; }
+    #services .link-box:nth-child(4) { background: #1abc9c; }
+    #services .link-box:nth-child(5) { background: #f39c12; }
+    #services .link-box:nth-child(6) { background: #d35400; }
+    #services .link-box:nth-child(7) { background: #2ecc71; }
+    #services .link-box:nth-child(8) { background: #8e44ad; }
+    #services .link-box:nth-child(9) { background: #16a085; }
+    #services .link-box:nth-child(10) { background: #c0392b; }
+    #services .link-box:nth-child(11) { background: #2980b9; }
+    #services .link-box:nth-child(12) { background: #27ae60; }
+    #services .link-box:nth-child(13) { background: #e74c3c; }
+    /* دکمه بازگشت رنگ خاص */
+    .back-btn {
+      flex: 1 1 100%;
+      background: #555 !important;
+    }
+    /* انیمیشن ورود */
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(-30px); }
+      to { opacity: 1; transform: translateX(0); }
     }
     .hidden {
       display: none;
@@ -72,7 +99,7 @@
 </head>
 <body>
   <div class="card">
-    <!-- پیام‌ها (همیشه نمایش داده میشن) -->
+    <!-- پیام‌های اصلی -->
     <div class="msg1">کافی نت اشرفی</div>
     <div class="msg2">‌از حسن توجه شما بسیار سپاسگزاریم</div>
     <div class="msg3">لطفا برای ادامه یکی از گزینه‌های زیر را انتخاب کنید</div>
@@ -99,7 +126,7 @@
       <div class="link-box">سوابق تامین اجتماعی</div>
       <div class="link-box">صحافی و فنر زنی</div>
       <div class="link-box">نصب ویندوز و برنامه‌های کاربردی</div>
-      <a class="link-box" href="#" onclick="showPage('main-menu')">بازگشت به صفحه قبل</a>
+      <a class="link-box back-btn" href="#" onclick="showPage('main-menu')">بازگشت به صفحه قبل</a>
     </div>
 
     <!-- صفحه لینک‌های ارتباطی -->
@@ -112,7 +139,7 @@
       <a class="link-box" href="https://t.me/ashrafi_c_net" target="_blank">تلگرام</a>
       <a class="link-box" href="https://wa.me/989309166187" target="_blank">واتساپ</a>
       <a class="link-box" href="tel:+989309166187">تماس تلفنی</a>
-      <a class="link-box" href="#" onclick="showPage('main-menu')">بازگشت به صفحه قبل</a>
+      <a class="link-box back-btn" href="#" onclick="showPage('main-menu')">بازگشت به صفحه قبل</a>
     </div>
   </div>
 
