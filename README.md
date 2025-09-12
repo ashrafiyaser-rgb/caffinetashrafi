@@ -73,7 +73,7 @@
 <body>
   <div class="card">
     <!-- پیام‌ها (همیشه نمایش داده میشن) -->
-    <div class="msg1">کارت ویزیت اشرفی</div>
+    <div class="msg1">کافی نت اشرفی</div>
     <div class="msg2">‌از حسن توجه شما بسیار سپاسگزاریم</div>
     <div class="msg3">لطفا برای ادامه یکی از گزینه‌های زیر را انتخاب کنید</div>
     <div class="msg4">توجه: برای استفاده از تلگرام باید فیلترشکن فعال باشد</div>
@@ -99,7 +99,7 @@
       <div class="link-box">سوابق تامین اجتماعی</div>
       <div class="link-box">صحافی و فنر زنی</div>
       <div class="link-box">نصب ویندوز و برنامه‌های کاربردی</div>
-      <a class="link-box" href="#" onclick="showPage('main-menu')">⬅ بازگشت به صفحه قبل</a>
+      <a class="link-box" href="#" onclick="showPage('main-menu')">بازگشت به صفحه قبل</a>
     </div>
 
     <!-- صفحه لینک‌های ارتباطی -->
@@ -112,7 +112,7 @@
       <a class="link-box" href="https://t.me/ashrafi_c_net" target="_blank">تلگرام</a>
       <a class="link-box" href="https://wa.me/989309166187" target="_blank">واتساپ</a>
       <a class="link-box" href="tel:+989309166187">تماس تلفنی</a>
-      <a class="link-box" href="#" onclick="showPage('main-menu')">⬅ بازگشت به صفحه قبل</a>
+      <a class="link-box" href="#" onclick="showPage('main-menu')">بازگشت به صفحه قبل</a>
     </div>
   </div>
 
