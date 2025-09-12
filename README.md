@@ -27,28 +27,25 @@
       margin-bottom: 17px;
     }
     .msg2 {
-      font-size: 15px; /* کمی کوچکتر */
+      font-size: 15px;
       color: green;
       margin-bottom: 15px;
     }
     .msg3 {
-      font-size: 15px; /* کمی کوچکتر */
+      font-size: 15px;
       margin-bottom: 15px;
     }
     .msg4 {
-      font-size: 13px; /* کوچکتر */
+      font-size: 13px;
       color: red;
       margin-bottom: 20px;
     }
     .links-container {
       display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+      flex-direction: column;
       gap: 10px;
     }
     .link-box {
-      flex: 1 1 calc(50% - 10px); /* دو ستون */
-      margin: 5px 0;
       padding: 12px;
       border-radius: 20px;
       background: #3498db;
@@ -58,6 +55,7 @@
       transition: 0.3s;
       box-shadow: 0 4px 8px rgba(0,0,0,0.15);
       text-align: center;
+      display: block;
     }
     .link-box:hover {
       transform: translateY(-3px);
@@ -67,16 +65,45 @@
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
     }
+    .hidden {
+      display: none;
+    }
   </style>
 </head>
 <body>
   <div class="card">
-    <div class="msg1">لینک‌های ارتباطی</div>
-    <div class="msg2">‌از حسن توجه شما بسیار سپاسگذاریم</div>
-    <div class="msg3">لطفا برای ثبت سفارش خود روی یکی از برنامه هایی که در دستگاهتون نصب هست کلیک کنید تا با تیم ما در ارتباط باشید</div>
-    <div class="msg4">توجه کنید که برای انتخاب تلگرام ابتدا باید فیلتر شکن شما فعال باشد</div>
+    <!-- پیام‌ها (همیشه نمایش داده میشن) -->
+    <div class="msg1">کارت ویزیت اشرفی</div>
+    <div class="msg2">‌از حسن توجه شما بسیار سپاسگزاریم</div>
+    <div class="msg3">لطفا برای ادامه یکی از گزینه‌های زیر را انتخاب کنید</div>
+    <div class="msg4">توجه: برای استفاده از تلگرام باید فیلترشکن فعال باشد</div>
 
-    <div class="links-container">
+    <!-- صفحه اصلی -->
+    <div id="main-menu" class="links-container">
+      <a class="link-box" href="#" onclick="showPage('services')">خدمات</a>
+      <a class="link-box" href="#" onclick="showPage('contacts')">لینک‌های ارتباطی</a>
+    </div>
+
+    <!-- صفحه خدمات -->
+    <div id="services" class="links-container hidden">
+      <div class="link-box">پرینت رنگی و سیاه و سفید</div>
+      <div class="link-box">اسکن مدارک</div>
+      <div class="link-box">کپی رنگی و سیاه و سفید</div>
+      <div class="link-box">انواع ثبت‌نام‌های اینترنتی</div>
+      <div class="link-box">ابلاغیه الکترونیکی</div>
+      <div class="link-box">چک صیادی</div>
+      <div class="link-box">گواهی عدم سوءپیشینه</div>
+      <div class="link-box">نوبت‌گیری تعویض پلاک</div>
+      <div class="link-box">اظهارنامه مالیاتی</div>
+      <div class="link-box">وام ازدواج و فرزندآوری</div>
+      <div class="link-box">سوابق تامین اجتماعی</div>
+      <div class="link-box">صحافی و فنر زنی</div>
+      <div class="link-box">نصب ویندوز و برنامه‌های کاربردی</div>
+      <a class="link-box" href="#" onclick="showPage('main-menu')">⬅ بازگشت به صفحه قبل</a>
+    </div>
+
+    <!-- صفحه لینک‌های ارتباطی -->
+    <div id="contacts" class="links-container hidden">
       <a class="link-box" href="https://rubika.ir/ashrafi_c_net" target="_blank">روبیکا</a>
       <a class="link-box" href="https://ble.ir/ashrafi_c_net" target="_blank">بله</a>
       <a class="link-box" href="https://sapp.ir/ashrafi_c_net" target="_blank">سروش</a>
@@ -84,11 +111,18 @@
       <a class="link-box" href="https://eitaa.com/ashrafi_c_net" target="_blank">ایتا</a>
       <a class="link-box" href="https://t.me/ashrafi_c_net" target="_blank">تلگرام</a>
       <a class="link-box" href="https://wa.me/989309166187" target="_blank">واتساپ</a>
-
-      <a class="link-box" href="tel:+989309166187">
-        تماس تلفنی
-      </a>
+      <a class="link-box" href="tel:+989309166187">تماس تلفنی</a>
+      <a class="link-box" href="#" onclick="showPage('main-menu')">⬅ بازگشت به صفحه قبل</a>
     </div>
   </div>
+
+  <script>
+    function showPage(pageId) {
+      document.getElementById('main-menu').classList.add('hidden');
+      document.getElementById('services').classList.add('hidden');
+      document.getElementById('contacts').classList.add('hidden');
+      document.getElementById(pageId).classList.remove('hidden');
+    }
+  </script>
 </body>
 </html>
