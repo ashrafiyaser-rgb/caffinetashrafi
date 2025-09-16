@@ -143,7 +143,7 @@
       <a class="link-box" href="https://t.me/ashrafi_c_net" target="_blank">تلگرام</a>
       <a class="link-box" href="https://wa.me/989309166187" target="_blank">واتساپ</a>
       <a class="link-box" href="tel:+989309166187">تماس تلفنی</a>
-
+      <a class="link-box" href="https://maps.google.com/maps?q=37.51278296507102%2C45.06070375442505&z=17&hl=fa" target="_blank">مسیریابی</a>
       <!-- بازگشت تک‌خطی -->
       <a class="link-box back-btn" href="javascript:void(0)" onclick="showPage('main-menu')">بازگشت به صفحه قبل</a>
     </div>
