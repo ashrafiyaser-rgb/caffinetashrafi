@@ -127,6 +127,7 @@
       <div class="link-box">وام ازدواج و فرزندآوری</div>
       <div class="link-box">سوابق تامین اجتماعی</div>
       <div class="link-box">صحافی و فنر زنی</div>
+      <div class="link-box">طراحی انواع فرم</div>
       <div class="link-box">نصب ویندوز و برنامه‌های کاربردی</div>
 
       <!-- بازگشت تک‌خطی -->
