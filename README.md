@@ -128,6 +128,8 @@
       <div class="link-box">سوابق تامین اجتماعی</div>
       <div class="link-box">صحافی و فنر زنی</div>
       <div class="link-box">طراحی انواع فرم</div>
+      <div class="link-box">تایدیه کد پستی</div>
+      <div class="link-box">سخا</div>
       <div class="link-box">نصب ویندوز و برنامه‌های کاربردی</div>
 
       <!-- بازگشت تک‌خطی -->
