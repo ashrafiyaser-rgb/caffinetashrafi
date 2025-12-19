@@ -91,44 +91,7 @@
       .card{width:92vw; padding:22px;}
     }
   </style>
-  /* ===== افکت برف متحرک ===== */
-.snowflake{
-  position: fixed;
-  top: -10px;
-  color: #fff;
-  font-size: 14px;
-  user-select: none;
-  pointer-events: none;
-  z-index: 9999;
-  opacity: .8;
-  animation-name: fall;
-  animation-timing-function: linear;
-}
-
-@keyframes fall{
-  to{
-    transform: translateY(110vh);
-  }
-}
-
 </head>
-<script>
-/* ===== Snow Effect ===== */
-const snowCount = 35; // تعداد دونه‌های برف
-
-for(let i = 0; i < snowCount; i++){
-  const snow = document.createElement('div');
-  snow.className = 'snowflake';
-  snow.innerHTML = '❄';
-
-  snow.style.left = Math.random() * 100 + 'vw';
-  snow.style.fontSize = (10 + Math.random() * 14) + 'px';
-  snow.style.animationDuration = (6 + Math.random() * 6) + 's';
-  snow.style.animationDelay = Math.random() * 5 + 's';
-
-  document.body.appendChild(snow);
-}
-</script>
 
 <body>
 <div class="card">
