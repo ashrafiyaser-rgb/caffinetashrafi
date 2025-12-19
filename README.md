@@ -10,19 +10,23 @@ body{
   font-family:'Vazirmatn', sans-serif;
   background:
     linear-gradient(rgba(15,32,39,.85), rgba(44,83,100,.9)),
-    url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1600&q=80");
-  background-size: cover;
-  background-position: center;
+    repeating-linear-gradient(
+      90deg,
+      rgba(255,255,255,.03) 0,
+      rgba(255,255,255,.03) 1px,
+      transparent 1px,
+      transparent 40px
+    ),
+    linear-gradient(135deg,#0f2027,#203a43,#2c5364);
   background-attachment: fixed;
   display:flex;
   justify-content:center;
   align-items:center;
   height:100vh;
   margin:0;
+  color:#222;
 }
-
-
-    .card{
+   .card{
       background:rgba(255,255,255,.95);
       padding:30px;
       border-radius:22px;
