@@ -197,22 +197,32 @@ function showPage(id){
 }
 </script>
 <script>
-/* ===== Snow Effect ===== */
-const snowCount = 35; // تعداد دونه‌های برف
+/* ===== Snow Effect (Continuous) ===== */
 
-for(let i = 0; i < snowCount; i++){
+function createSnowflake(){
   const snow = document.createElement('div');
   snow.className = 'snowflake';
-  snow.innerHTML = '❄';
+
+  // انواع برف
+  const snowChars = ['❄','❅','❆'];
+  snow.innerHTML = snowChars[Math.floor(Math.random()*snowChars.length)];
 
   snow.style.left = Math.random() * 100 + 'vw';
-  snow.style.fontSize = (10 + Math.random() * 14) + 'px';
-  snow.style.animationDuration = (6 + Math.random() * 6) + 's';
-  snow.style.animationDelay = Math.random() * 5 + 's';
+  snow.style.fontSize = (10 + Math.random() * 16) + 'px';
+  snow.style.animationDuration = (6 + Math.random() * 8) + 's';
+  snow.style.opacity = Math.random();
 
   document.body.appendChild(snow);
-}
-</script>
 
+  // حذف برف بعد از رسیدن به پایین
+  setTimeout(() => {
+    snow.remove();
+  }, 15000);
+}
+
+// تولید مداوم برف
+setInterval(createSnowflake, 300); // هر 0.3 ثانیه یک برف
+
+</script>
 </body>
 </html>
