@@ -6,19 +6,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
   <style>
     /* ===== تم زمستانی ===== */
-    body{
-      font-family:'Vazirmatn', sans-serif;
-      background:
-        radial-gradient(circle at 20% 20%, rgba(255,255,255,.35), transparent 40%),
-        radial-gradient(circle at 80% 30%, rgba(255,255,255,.25), transparent 45%),
-        linear-gradient(135deg,#0f2027,#203a43,#2c5364);
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      height:100vh;
-      margin:0;
-      color:#222;
-    }
+body{
+  font-family:'Vazirmatn', sans-serif;
+  background:
+    linear-gradient(rgba(15,32,39,.85), rgba(44,83,100,.9)),
+    url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  margin:0;
+}
+
 
     .card{
       background:rgba(255,255,255,.95);
