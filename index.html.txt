@@ -14,6 +14,20 @@
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
+.btn-yes{
+background:#2ecc71;
+color:#fff;
+}
+
+.btn-no{
+background:#e74c3c;
+color:#fff;
+}
+
+.hidden{
+display:none !important;
+}
+
 <style>
 
 *{
