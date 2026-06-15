@@ -394,7 +394,7 @@ href="tel:+989309166187">
 
 <div class="msg1">
 
-☀️ کافی نت اشرفی ☀️
+☀️ کافی نت دیجیتال اشرفی ☀️
 
 </div>
 
@@ -406,7 +406,7 @@ href="tel:+989309166187">
 
 <div class="msg3">
 
-به کارت ویزیت دیجیتال کافی نت اشرفی خوش آمدید
+به کافی نت دیجیتال اشرفی خوش آمدید
 
 <br>
 
@@ -477,9 +477,9 @@ onclick="showPage('contacts')">
 id="services"
 class="links-container hidden">
 
-<div class="link-box service-item">
+/*<div class="link-box service-item">
 🖨️ پرینت رنگی و سیاه و سفید
-</div>
+</div>*/
 
 <div class="link-box service-item">
 📄 اسکن مدارک
