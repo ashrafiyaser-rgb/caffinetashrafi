@@ -481,7 +481,7 @@ class="links-container hidden">
 </div>
 
 <div class="link-box service-item">
-📋 کپی رنگی و سیاه و سفید
+📋 طراحی جدول و سوالات امتحانی
 </div>
 
 <div class="link-box service-item">
@@ -517,10 +517,6 @@ class="links-container hidden">
 </div>
 
 <div class="link-box service-item">
-📚 صحافی و فنر زنی
-</div>
-
-<div class="link-box service-item">
 📝 طراحی انواع فرم
 </div>
 
@@ -530,10 +526,6 @@ class="links-container hidden">
 
 <div class="link-box service-item">
 🪪 سخا
-</div>
-
-<div class="link-box service-item">
-💻 نصب ویندوز و برنامه های کاربردی
 </div>
 
 <div class="link-box service-item">
