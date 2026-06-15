@@ -477,10 +477,6 @@ onclick="showPage('contacts')">
 id="services"
 class="links-container hidden">
 
-/*<div class="link-box service-item">
-🖨️ پرینت رنگی و سیاه و سفید
-</div>*/
-
 <div class="link-box service-item">
 📄 اسکن مدارک
 </div>
@@ -728,25 +724,6 @@ target="_blank">
 <br>
 
 شاد
-
-</a>
-
-<a
-class="link-box"
-style="
-background:
-linear-gradient(
-135deg,
-#43a047,
-#2e7d32
-);"
-href="tel:+989309166187">
-
-<i class="fa-solid fa-phone"></i>
-
-<br>
-
-تماس تلفنی
 
 </a>
 
