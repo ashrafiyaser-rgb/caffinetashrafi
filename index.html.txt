@@ -5,26 +5,16 @@
 
 <meta charset="UTF-8">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>کافی نت اشرفی</title>
 
-<!-- فونت فارسی -->
-
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap"
-rel="stylesheet">
-
-<!-- Font Awesome -->
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <style>
-
-/* =====================
-   تنظیمات پایه
-===================== */
 
 *{
 margin:0;
@@ -34,7 +24,6 @@ font-family:'Vazirmatn',sans-serif;
 }
 
 body{
-
 background:
 linear-gradient(
 135deg,
@@ -44,35 +33,20 @@ linear-gradient(
 );
 
 min-height:100vh;
-
 display:flex;
-
 justify-content:center;
-
 align-items:center;
-
 overflow-x:hidden;
-
 position:relative;
-
 }
 
-/* =====================
-   خورشید
-===================== */
-
 .sun{
-
 position:fixed;
-
 top:25px;
 right:25px;
-
 width:90px;
 height:90px;
-
 border-radius:50%;
-
 background:#FFD54F;
 
 box-shadow:
@@ -81,35 +55,19 @@ box-shadow:
 0 0 80px #FFD54F;
 
 animation:sunPulse 4s infinite;
-
 z-index:1;
-
 }
 
 @keyframes sunPulse{
 
-0%{
-transform:scale(1);
-}
-
-50%{
-transform:scale(1.08);
-}
-
-100%{
-transform:scale(1);
-}
+0%{transform:scale(1);}
+50%{transform:scale(1.08);}
+100%{transform:scale(1);}
 
 }
-
-/* =====================
-   موج تابستانی
-===================== */
 
 .wave{
-
 position:fixed;
-
 bottom:0;
 left:0;
 
@@ -122,20 +80,16 @@ rgba(255,255,255,.35);
 border-radius:
 100% 100% 0 0;
 
-animation:waveMove 12s linear infinite;
+animation:
+waveMove 12s linear infinite;
 
 z-index:0;
-
 }
 
 .wave2{
-
 bottom:25px;
-
 opacity:.25;
-
 animation-duration:18s;
-
 }
 
 @keyframes waveMove{
@@ -150,14 +104,9 @@ transform:translateX(-50%);
 
 }
 
-/* =====================
-   کارت اصلی
-===================== */
-
 .card{
 
 width:390px;
-
 max-width:95vw;
 
 padding:30px;
@@ -168,8 +117,6 @@ background:
 rgba(255,255,255,.18);
 
 backdrop-filter:blur(14px);
-
--webkit-backdrop-filter:blur(14px);
 
 border:
 1px solid rgba(255,255,255,.30);
@@ -183,14 +130,9 @@ z-index:5;
 
 }
 
-/* =====================
-   پیام‌ها
-===================== */
-
 .msg1{
 
 font-size:28px;
-
 font-weight:700;
 
 text-align:center;
@@ -204,7 +146,6 @@ margin-bottom:12px;
 .msg2{
 
 text-align:center;
-
 color:#00695c;
 
 font-size:15px;
@@ -236,10 +177,6 @@ color:#c62828;
 margin-bottom:20px;
 
 }
-
-/* =====================
-   دکمه ها
-===================== */
 
 .links-container{
 
@@ -278,19 +215,28 @@ transition:.25s;
 box-shadow:
 0 6px 15px rgba(0,0,0,.15);
 
+user-select:none;
+
 }
 
 .link-box:hover{
 
 transform:
 translateY(-4px)
-scale(1.02);
+scale(1.03);
 
 }
 
-/* =====================
-   بازگشت
-===================== */
+.service-item{
+
+background:
+linear-gradient(
+135deg,
+#ff9800,
+#f57c00
+);
+
+}
 
 .back-btn{
 
@@ -305,19 +251,11 @@ linear-gradient(
 
 }
 
-/* =====================
-   مخفی
-===================== */
-
 .hidden{
 
 display:none !important;
 
 }
-
-/* =====================
-   مودال درخواست
-===================== */
 
 .modal{
 
@@ -350,23 +288,6 @@ border-radius:20px;
 
 text-align:center;
 
-box-shadow:
-0 10px 30px rgba(0,0,0,.2);
-
-}
-
-.modal-content h3{
-
-margin-bottom:10px;
-
-}
-
-.modal-content p{
-
-margin-bottom:12px;
-
-line-height:1.8;
-
 }
 
 .modal-btn{
@@ -381,14 +302,11 @@ cursor:pointer;
 
 margin:5px;
 
-font-size:14px;
-
 }
 
 .btn-yes{
 
 background:#2ecc71;
-
 color:#fff;
 
 }
@@ -396,21 +314,15 @@ color:#fff;
 .btn-no{
 
 background:#e74c3c;
-
 color:#fff;
 
 }
-
-/* =====================
-   تماس شناور
-===================== */
 
 .call-btn{
 
 position:fixed;
 
 left:20px;
-
 bottom:20px;
 
 width:60px;
@@ -423,7 +335,6 @@ background:#25D366;
 display:flex;
 
 justify-content:center;
-
 align-items:center;
 
 color:#fff;
@@ -432,275 +343,30 @@ font-size:24px;
 
 text-decoration:none;
 
-box-shadow:
-0 6px 20px rgba(0,0,0,.25);
-
 z-index:999;
 
-animation:callPulse 2s infinite;
-
-}
-
-@keyframes callPulse{
-
-0%{
-transform:scale(1);
-}
-
-50%{
-transform:scale(1.08);
-}
-
-100%{
-transform:scale(1);
-}
-
-}
-
-/* =====================
-   موبایل
-===================== */
-
-@media(max-width:420px){
-
-.card{
-
-padding:22px;
-
-width:95vw;
-
-}
-
-.link-box{
-
-font-size:13px;
-
-}
+box-shadow:
+0 6px 20px rgba(0,0,0,.25);
 
 }
 
 </style>
 
 </head>
-<script>
 
-/* ==========================
-   متغیر خدمت انتخاب شده
-========================== */
-
-let selectedService = '';
-
-/* ==========================
-   نمایش صفحات
-========================== */
-
-function showPage(id){
-
-const pages = [
-'main-menu',
-'services',
-'contacts'
-];
-
-pages.forEach(page => {
-
-document
-.getElementById(page)
-.classList
-.add('hidden');
-
-});
-
-document
-.getElementById(id)
-.classList
-.remove('hidden');
-
-}
-
-/* ==========================
-   مودال درخواست
-========================== */
-
-function openRequest(serviceName){
-
-selectedService = serviceName;
-
-document
-.getElementById('serviceName')
-.innerHTML =
-'<strong>' +
-serviceName +
-'</strong>';
-
-document
-.getElementById('requestModal')
-.classList
-.remove('hidden');
-
-}
-
-function closeModal(){
-
-document
-.getElementById('requestModal')
-.classList
-.add('hidden');
-
-}
-
-function goToContacts(){
-
-closeModal();
-
-showPage('contacts');
-
-}
-
-/* ==========================
-   اتصال کلیه خدمات
-========================== */
-
-document
-.querySelectorAll('.service-item')
-.forEach(item => {
-
-item.style.background =
-'linear-gradient(135deg,#ff9800,#f57c00)';
-
-item.addEventListener(
-'click',
-function(){
-
-openRequest(
-this.innerText.trim()
-);
-
-}
-);
-
-});
-
-/* ==========================
-   متن پیام
-========================== */
-
-function getRequestText(){
-
-return `سلام
-
-درخواست من برای خدمت زیر است:
-
-${selectedService}
-
-لطفاً راهنمایی فرمایید.
-
-با تشکر`;
-
-}
-
-/* ==========================
-   واتساپ
-========================== */
-
-function openWhatsApp(){
-
-if(selectedService === ''){
-
-alert(
-'ابتدا از بخش خدمات، خدمت مورد نظر را انتخاب کنید.'
-);
-
-return;
-
-}
-
-const text =
-encodeURIComponent(
-getRequestText()
-);
-
-window.open(
-
-'https://wa.me/989309166187?text=' + text,
-
-'_blank'
-
-);
-
-}
-
-/* ==========================
-   تلگرام
-========================== */
-
-function openTelegram(){
-
-if(selectedService === ''){
-
-alert(
-'ابتدا از بخش خدمات، خدمت مورد نظر را انتخاب کنید.'
-);
-
-return;
-
-}
-
-const text =
-getRequestText();
-
-navigator.clipboard
-.writeText(text)
-.then(() => {
-
-alert(
-'✅ متن درخواست کپی شد.\n\nپس از ورود به تلگرام فقط Paste کنید.'
-);
-
-window.open(
-'https://t.me/ashrafi_c_net',
-'_blank'
-);
-
-})
-.catch(() => {
-
-window.open(
-'https://t.me/ashrafi_c_net',
-'_blank'
-);
-
-});
-
-}
-
-/* ==========================
-   صفحه پیش فرض
-========================== */
-
-showPage('main-menu');
-
-</script>
-
-</body>
-</html>
 <body>
 
 <!-- خورشید -->
-
 <div class="sun"></div>
 
 <!-- موج ها -->
-
 <div class="wave"></div>
 <div class="wave wave2"></div>
 
 <!-- تماس سریع -->
-
 <a
 class="call-btn"
-href="tel:+989309166187"
-title="تماس سریع">
+href="tel:+989309166187">
 
 <i class="fa-solid fa-phone"></i>
 
@@ -709,8 +375,6 @@ title="تماس سریع">
 <!-- کارت اصلی -->
 
 <div class="card">
-
-<!-- پیام ها -->
 
 <div id="messages">
 
@@ -787,7 +451,7 @@ onclick="showPage('contacts')">
 
 <br>
 
-لینک‌های ارتباطی
+لینک های ارتباطی
 
 </a>
 
@@ -798,8 +462,6 @@ onclick="showPage('contacts')">
 <div
 id="services"
 class="links-container hidden">
-
-<!-- خدمات عمومی -->
 
 <div class="link-box service-item">
 🖨️ پرینت رنگی و سیاه و سفید
@@ -865,7 +527,9 @@ class="links-container hidden">
 💻 نصب ویندوز و برنامه های کاربردی
 </div>
 
-<!-- خدمات نرم افزاری -->
+<div class="link-box service-item">
+🏠 ثبت اقامتگاه سامانه املاک و اسکان
+</div>
 
 <div class="link-box service-item">
 📊 ساخت نرم افزارهای حسابداری تحت اکسل
@@ -876,24 +540,12 @@ class="links-container hidden">
 </div>
 
 <div class="link-box service-item">
-🧑‍💻 طراحی و ساخت انواع نرم افزار حسابداری و مدیریتی کاملاً شخصی و متناسب با سلیقه شما
-</div>
-
-<!-- خدمات ملکی -->
-
-<div class="link-box service-item">
-🏠 ثبت اقامتگاه سامانه املاک و اسکان
-</div>
-
-<div class="link-box service-item">
 📑 ثبت نام قرارداد فروش و اجاره و دریافت کد رهگیری
 </div>
 
 <div class="link-box service-item">
 🏡 ثبت نام وام ودیعه مسکن
 </div>
-
-<!-- خدمات مالی -->
 
 <div class="link-box service-item">
 💰 خرید و فروش وام امتیازی
@@ -903,7 +555,9 @@ class="links-container hidden">
 🚗 خرید و فروش حواله خودرو
 </div>
 
-<!-- بازگشت -->
+<div class="link-box service-item">
+🧑‍💻 طراحی و ساخت انواع نرم افزار حسابداری و مدیریتی کاملاً شخصی و متناسب با سلیقه شما
+</div>
 
 <a
 class="link-box back-btn"
@@ -922,8 +576,6 @@ onclick="showPage('main-menu')">
 <div
 id="contacts"
 class="links-container hidden">
-
-<!-- واتساپ -->
 
 <a
 class="link-box"
@@ -945,8 +597,6 @@ onclick="openWhatsApp()">
 
 </a>
 
-<!-- تلگرام -->
-
 <a
 class="link-box"
 style="
@@ -966,8 +616,6 @@ onclick="openTelegram()">
 تلگرام
 
 </a>
-
-<!-- روبیکا -->
 
 <a
 class="link-box"
@@ -989,8 +637,6 @@ target="_blank">
 
 </a>
 
-<!-- بله -->
-
 <a
 class="link-box"
 style="
@@ -1010,8 +656,6 @@ target="_blank">
 بله
 
 </a>
-
-<!-- ایتا -->
 
 <a
 class="link-box"
@@ -1033,8 +677,6 @@ target="_blank">
 
 </a>
 
-<!-- سروش -->
-
 <a
 class="link-box"
 style="
@@ -1054,8 +696,6 @@ target="_blank">
 سروش
 
 </a>
-
-<!-- شاد -->
 
 <a
 class="link-box"
@@ -1077,8 +717,6 @@ target="_blank">
 
 </a>
 
-<!-- تماس تلفنی -->
-
 <a
 class="link-box"
 style="
@@ -1097,8 +735,6 @@ href="tel:+989309166187">
 تماس تلفنی
 
 </a>
-
-<!-- مسیریابی -->
 
 <a
 class="link-box"
@@ -1119,8 +755,6 @@ target="_blank">
 مسیریابی
 
 </a>
-
-<!-- بازگشت -->
 
 <a
 class="link-box back-btn"
@@ -1177,3 +811,214 @@ onclick="closeModal()">
 </div>
 
 </div>
+
+<script>
+
+/* ==========================
+   متغیر خدمت انتخاب شده
+========================== */
+
+let selectedService = '';
+
+/* ==========================
+   نمایش صفحات
+========================== */
+
+function showPage(id){
+
+const pages = [
+'main-menu',
+'services',
+'contacts'
+];
+
+pages.forEach(page => {
+
+document
+.getElementById(page)
+.classList
+.add('hidden');
+
+});
+
+document
+.getElementById(id)
+.classList
+.remove('hidden');
+
+}
+
+/* ==========================
+   باز کردن مودال
+========================== */
+
+function openRequest(serviceName){
+
+selectedService = serviceName;
+
+document
+.getElementById('serviceName')
+.innerHTML =
+'<strong>' +
+serviceName +
+'</strong>';
+
+document
+.getElementById('requestModal')
+.classList
+.remove('hidden');
+
+}
+
+/* ==========================
+   بستن مودال
+========================== */
+
+function closeModal(){
+
+document
+.getElementById('requestModal')
+.classList
+.add('hidden');
+
+}
+
+/* ==========================
+   رفتن به ارتباطی
+========================== */
+
+function goToContacts(){
+
+closeModal();
+
+showPage('contacts');
+
+}
+
+/* ==========================
+   اتصال کلیک خدمات
+========================== */
+
+document
+.querySelectorAll('.service-item')
+.forEach(item => {
+
+item.addEventListener(
+'click',
+function(){
+
+openRequest(
+this.innerText.trim()
+);
+
+}
+);
+
+});
+
+/* ==========================
+   متن درخواست
+========================== */
+
+function getRequestText(){
+
+return `سلام
+
+درخواست من برای خدمت زیر است:
+
+${selectedService}
+
+لطفاً راهنمایی فرمایید.
+
+با تشکر`;
+
+}
+
+/* ==========================
+   واتساپ
+========================== */
+
+function openWhatsApp(){
+
+if(selectedService === ''){
+
+alert(
+'ابتدا از بخش خدمات، خدمت مورد نظر را انتخاب کنید.'
+);
+
+return;
+
+}
+
+const text =
+encodeURIComponent(
+getRequestText()
+);
+
+window.open(
+
+'https://wa.me/989309166187?text=' + text,
+
+'_blank'
+
+);
+
+}
+
+/* ==========================
+   تلگرام
+========================== */
+
+function openTelegram(){
+
+if(selectedService === ''){
+
+alert(
+'ابتدا از بخش خدمات، خدمت مورد نظر را انتخاب کنید.'
+);
+
+return;
+
+}
+
+const text =
+getRequestText();
+
+if(navigator.clipboard){
+
+navigator.clipboard
+.writeText(text)
+.then(() => {
+
+alert(
+'متن درخواست کپی شد.\nپس از ورود به تلگرام آن را Paste کنید.'
+);
+
+window.open(
+'https://t.me/ashrafi_c_net',
+'_blank'
+);
+
+});
+
+}else{
+
+window.open(
+'https://t.me/ashrafi_c_net',
+'_blank'
+);
+
+}
+
+}
+
+/* ==========================
+   صفحه پیش فرض
+========================== */
+
+showPage('main-menu');
+
+</script>
+
+</body>
+</html>
