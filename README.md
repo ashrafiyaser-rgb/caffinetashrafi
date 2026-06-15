@@ -477,87 +477,87 @@ id="services"
 class="links-container hidden">
 
 <div class="link-box service-item">
-📄 اسکن مدارک
+اسکن مدارک
 </div>
 
 <div class="link-box service-item">
-📋 طراحی جدول و سوالات امتحانی
+طراحی جدول و سوالات امتحانی
 </div>
 
 <div class="link-box service-item">
-🌐 انواع ثبت نام های اینترنتی
+انواع ثبت نام های اینترنتی
 </div>
 
 <div class="link-box service-item">
-📨 ابلاغیه الکترونیکی
+ابلاغیه الکترونیکی
 </div>
 
 <div class="link-box service-item">
-💳 چک صیادی
+چک صیادی
 </div>
 
 <div class="link-box service-item">
-⚖️ گواهی عدم سوء پیشینه
+گواهی عدم سوء پیشینه
 </div>
 
 <div class="link-box service-item">
-🚘 نوبت گیری تعویض پلاک
+نوبت گیری تعویض پلاک
 </div>
 
 <div class="link-box service-item">
-🏛️ اظهارنامه مالیاتی
+اظهارنامه مالیاتی
 </div>
 
 <div class="link-box service-item">
-👶 وام ازدواج و فرزندآوری
+وام ازدواج و فرزندآوری
 </div>
 
 <div class="link-box service-item">
-📑 سوابق تامین اجتماعی
+سوابق تامین اجتماعی
 </div>
 
 <div class="link-box service-item">
-📝 طراحی انواع فرم
+طراحی انواع فرم
 </div>
 
 <div class="link-box service-item">
-📮 تاییدیه کد پستی
+تاییدیه کد پستی
 </div>
 
 <div class="link-box service-item">
-🪪 سخا
+سخا
 </div>
 
 <div class="link-box service-item">
-🏠 ثبت اقامتگاه سامانه املاک و اسکان
+ثبت اقامتگاه سامانه املاک و اسکان
 </div>
 
 <div class="link-box service-item">
-📊 ساخت نرم افزارهای حسابداری تحت اکسل
+ساخت نرم افزارهای حسابداری تحت اکسل
 </div>
 
 <div class="link-box service-item">
-🌍 ساخت نرم افزارهای حسابداری تحت وب
+ساخت نرم افزارهای حسابداری تحت وب
 </div>
 
 <div class="link-box service-item">
-📑 ثبت نام قرارداد فروش و اجاره و دریافت کد رهگیری
+ثبت نام قرارداد فروش و اجاره و دریافت کد رهگیری
 </div>
 
 <div class="link-box service-item">
-🏡 ثبت نام وام ودیعه مسکن
+ثبت نام وام ودیعه مسکن
 </div>
 
 <div class="link-box service-item">
-💰 خرید و فروش وام امتیازی
+خرید و فروش وام امتیازی
 </div>
 
 <div class="link-box service-item">
-🚗 خرید و فروش حواله خودرو
+خرید و فروش حواله خودرو
 </div>
 
 <div class="link-box service-item">
-🧑‍💻 طراحی و ساخت انواع نرم افزار حسابداری و مدیریتی کاملاً شخصی و متناسب با سلیقه شما
+طراحی و ساخت انواع نرم افزار حسابداری و مدیریتی کاملاً شخصی و متناسب با سلیقه شما
 </div>
 
 <a
@@ -598,6 +598,7 @@ onclick="openWhatsApp()">
 
 </a>
 
+
 <a
 class="link-box"
 style="
@@ -618,6 +619,7 @@ onclick="openTelegram()">
 
 </a>
 
+
 <a
 class="link-box"
 style="
@@ -630,13 +632,12 @@ linear-gradient(
 href="https://rubika.ir/ashrafi_c_net"
 target="_blank">
 
-📱
-
 <br>
 
 روبیکا
 
 </a>
+
 
 <a
 class="link-box"
@@ -650,13 +651,12 @@ linear-gradient(
 href="https://ble.ir/ashrafi_c_net"
 target="_blank">
 
-💬
-
 <br>
 
 بله
 
 </a>
+
 
 <a
 class="link-box"
@@ -670,13 +670,12 @@ linear-gradient(
 href="https://eitaa.com/ashrafi_c_net"
 target="_blank">
 
-📨
-
 <br>
 
 ایتا
 
 </a>
+
 
 <a
 class="link-box"
@@ -690,13 +689,12 @@ linear-gradient(
 href="https://sapp.ir/ashrafi_c_net"
 target="_blank">
 
-✉️
-
 <br>
 
 سروش
 
 </a>
+
 
 <a
 class="link-box"
@@ -710,13 +708,12 @@ linear-gradient(
 href="https://shad.ir/prfcxe5593"
 target="_blank">
 
-🎓
-
 <br>
 
 شاد
 
 </a>
+
 
 <a
 class="link-box"
@@ -737,6 +734,7 @@ target="_blank">
 مسیریابی
 
 </a>
+
 
 <a
 class="link-box back-btn"
