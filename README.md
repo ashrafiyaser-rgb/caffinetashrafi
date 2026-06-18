@@ -477,7 +477,7 @@ id="services"
 class="links-container hidden">
 
 <div class="link-box service-item">
-اسکن مدارک
+پرینت و اسکن
 </div>
 
 <div class="link-box service-item">
