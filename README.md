@@ -489,6 +489,18 @@ class="links-container hidden">
 </div>
 
 <div class="link-box service-item">
+ثبت نام زائران اربعین (شروع از 9 تیر)
+</div>
+
+<div class="link-box service-item">
+ثبت‌نام و انتخاب رشته برنامه پذیرش كاردانی به كارشناسی ناپیوسته -سال ۱۴۰۵ (تمدید تا جمعه 5 تیر)
+</div>
+
+<div class="link-box service-item">
+فیش حقوقی بازنشستگان کشوری
+</div>
+
+<div class="link-box service-item">
 ابلاغیه الکترونیکی
 </div>
 
