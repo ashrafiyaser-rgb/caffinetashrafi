@@ -318,6 +318,62 @@ color:#fff;
 
 }
 
+/* ===== اخبار ===== */
+
+.news-box{
+
+margin-bottom:18px;
+
+padding:12px;
+
+border-radius:20px;
+
+background:
+rgba(255,255,255,.18);
+
+backdrop-filter:blur(12px);
+
+border:
+1px solid rgba(255,255,255,.3);
+
+}
+
+.news-title{
+
+text-align:center;
+
+font-weight:700;
+
+font-size:16px;
+
+margin-bottom:10px;
+
+color:#004d40;
+
+}
+
+.news-wrapper{
+
+height:90px;
+
+overflow:hidden;
+
+position:relative;
+
+}
+
+.news-content{
+
+line-height:2;
+
+font-size:14px;
+
+text-align:right;
+
+position:relative;
+
+}
+
 .call-btn{
 
 position:fixed;
@@ -421,6 +477,33 @@ href="tel:+989309166187">
 </div>
 
 </div>
+
+<!-- ===== کادر اخبار ===== -->
+
+<div class="news-box">
+
+<div class="news-title">
+
+📢 اخبار و اطلاعیه ها
+
+</div>
+
+<div class="news-wrapper">
+
+<div class="news-content" id="newsContent">
+
+🔹 این قسمت مخصوص اخبار و اطلاعیه های کافی نت است<br>
+🔹 هر خبر را در یک خط جدید وارد کنید<br>
+🔹 اگر تعداد خبرها زیاد شود به صورت خودکار به بالا حرکت می کند<br>
+🔹 اگر خبرها کم باشند هیچ حرکتی انجام نمی شود
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ===== پایان کادر اخبار ===== -->
 
 <!-- منوی اصلی -->
 
@@ -1003,6 +1086,47 @@ window.open(
 }
 
 }
+
+/* ===== اخبار متحرک ===== */
+
+window.addEventListener('load',()=>{
+
+const wrapper =
+document.querySelector('.news-wrapper');
+
+const content =
+document.querySelector('.news-content');
+
+if(!wrapper || !content) return;
+
+if(content.scrollHeight > wrapper.clientHeight){
+
+const distance =
+content.scrollHeight;
+
+content.animate(
+
+[
+{
+transform:'translateY(90px)'
+},
+
+{
+transform:`translateY(-${distance}px)`
+}
+
+],
+
+{
+duration:distance * 120,
+iterations:Infinity
+}
+
+);
+
+}
+
+});
 
 /* ==========================
    صفحه پیش فرض
