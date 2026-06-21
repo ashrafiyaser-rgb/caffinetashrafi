@@ -148,7 +148,7 @@ margin-bottom:12px;
 text-align:center;
 color:#00695c;
 
-font-size:15px;
+font-size:16px;
 
 margin-bottom:10px;
 
