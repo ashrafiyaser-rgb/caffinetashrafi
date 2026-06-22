@@ -374,30 +374,6 @@ position:relative;
 
 }
 
-.stats-box{
-
-margin-bottom:15px;
-
-padding:12px;
-
-border-radius:20px;
-
-background:
-rgba(255,255,255,.18);
-
-backdrop-filter:blur(12px);
-
-border:
-1px solid rgba(255,255,255,.3);
-
-text-align:center;
-
-font-size:14px;
-
-color:#004d40;
-
-}
-
 .call-btn{
 
 position:fixed;
@@ -525,26 +501,6 @@ href="tel:+989309166187">
 </div>
 
 <!-- ===== پایان کادر اخبار ===== -->
-
-<!-- ===== آمار بازدید ===== -->
-
-<div class="stats-box">
-
-📊 آمار بازدید
-
-<br><br>
-
-👁️ بازدید کل:
-<span id="total-count">...</span>
-
-<br>
-
-📅 بازدید امروز:
-<span id="today-count">...</span>
-
-</div>
-
-<!-- ===== پایان آمار بازدید ===== -->
 
 <!-- منوی اصلی -->
 
@@ -1224,41 +1180,6 @@ iterations:Infinity
 }
 
 },300);
-
-});
-
-/* ===== آمار بازدید ===== */
-
-// بازدید کل
-
-fetch(
-'https://api.countapi.xyz/hit/ashrafi-caffinet/total'
-)
-.then(r=>r.json())
-.then(r=>{
-
-document
-.getElementById('total-count')
-.innerText = r.value;
-
-});
-
-// بازدید امروز
-
-const today =
-new Date()
-.toISOString()
-.split('T')[0];
-
-fetch(
-'https://api.countapi.xyz/hit/ashrafi-caffinet-'+today+'/today'
-)
-.then(r=>r.json())
-.then(r=>{
-
-document
-.getElementById('today-count')
-.innerText = r.value;
 
 });
 
