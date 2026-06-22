@@ -492,10 +492,7 @@ href="tel:+989309166187">
 
 <div class="news-content" id="newsContent">
 
-🔹 ثبت نام آزمون کاردانی به کارشناسی تا 5 تیر تمدید شد<br>
-🔹 ثبت نام زائرین اربعین از 9 تیر<br>
-🔹 جهت ثبت نام وام ازدواج و فرزند آوری گزینه مربوطه در صفحه خدمات را انتخاب کنید<br>
-🔹 جهت ثبت نام خودرو گزینه مربوطه را در صفحه خدمات انتخاب کنید
+در حال دریافت اخبار...
 
 </div>
 
@@ -1129,6 +1126,60 @@ iterations:Infinity
 );
 
 }
+
+});
+
+/* ===== دریافت اخبار از فایل ===== */
+
+fetch('news.txt')
+.then(response => response.text())
+.then(text => {
+
+const newsDiv =
+document.getElementById('newsContent');
+
+const lines =
+text
+.split('\n')
+.filter(line => line.trim() !== '');
+
+newsDiv.innerHTML =
+lines.join('<br>');
+
+setTimeout(() => {
+
+const wrapper =
+document.querySelector('.news-wrapper');
+
+const content =
+document.querySelector('.news-content');
+
+if(content.scrollHeight > wrapper.clientHeight){
+
+const distance =
+content.scrollHeight;
+
+content.animate(
+
+[
+{
+transform:'translateY(90px)'
+},
+{
+transform:`translateY(-${distance}px)`
+}
+],
+
+{
+duration:distance * 120,
+iterations:Infinity
+}
+
+);
+
+}
+
+},300);
 
 });
 
