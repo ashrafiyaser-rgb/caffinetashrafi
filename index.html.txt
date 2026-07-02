@@ -573,7 +573,7 @@ class="links-container hidden">
 </div>
 
 <div class="link-box service-item">
-ثبت‌نام و انتخاب رشته برنامه پذیرش كاردانی به كارشناسی ناپیوسته -سال ۱۴۰۵ (تمدید تا جمعه 5 تیر)
+ثبت‌نام حج تمتع(شروع ثبت نام از 21 تیر)
 </div>
 
 <div class="link-box service-item">
