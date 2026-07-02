@@ -820,7 +820,7 @@ linear-gradient(
 #e53935,
 #d32f2f
 );"
-href="https://maps.google.com/maps?q=37.51278296507102,45.06070375442505&z=17"
+href="*********"
 target="_blank">
 
 <i class="fa-solid fa-location-dot"></i>
