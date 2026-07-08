@@ -569,7 +569,7 @@ class="links-container hidden">
 </div>
 
 <div class="link-box service-item">
-دریافت کارت ورود به جلسه امتحانتات نهایی</div>
+دریافت کارت ورود به جلسه امتحانات نهایی</div>
 
 <div class="link-box service-item">
 ثبت نام زائران اربعین (شروع از 9 تیر)
