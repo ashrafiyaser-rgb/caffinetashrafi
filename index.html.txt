@@ -484,7 +484,7 @@ href="tel:+989309166187">
 
 <div class="news-title">
 
-📢 اخبار و اطلاعیه ها
+📢 اطلاعیه ها
 
 </div>
 
@@ -567,6 +567,9 @@ class="links-container hidden">
 <div class="link-box service-item">
 انواع ثبت نام های اینترنتی
 </div>
+
+<div class="link-box service-item">
+دریافت کارت ورود به جلسه امتحانتات نهایی</div>
 
 <div class="link-box service-item">
 ثبت نام زائران اربعین (شروع از 9 تیر)
